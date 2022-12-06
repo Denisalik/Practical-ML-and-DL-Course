@@ -1,0 +1,15 @@
+#backend
+uvicorn
+fastapi
+#ML
+opencv-python-headless
+pyyaml
+tqdm
+jupyter
+matplotlib
+Pillow
+seaborn
+scipy
+torchvision
+GitPython
+python-multipart

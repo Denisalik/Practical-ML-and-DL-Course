@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  front:
+    build: ./gui/
+    ports:
+      - "3000:80"
+  back:
+    build: ./app/
+    ports:
+      - "8080:8080"
+    depends_on:
+      - front
